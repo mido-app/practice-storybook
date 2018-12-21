@@ -1,0 +1,19 @@
+{
+  "name": "storybook-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "buid-storybook": "build-storybook -s public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/vue": "^4.1.3",
+    "babel-preset-vue": "^2.0.2"
+  },
+  "dependencies": {
+    "nuxt": "^2.3.4"
+  }
+}
